@@ -9,4 +9,8 @@ class Pokemon {
     }
 }
 
-   
+function sorteandoPokemon() {
+    let pokemon = ["Pikachu", "Charmander", "Bulbasaur", "Squirtle", "Charizard"];
+    let i = Math.floor(Math.random() * (+5 - +0)) + +0;
+    return pokemon[i];
+}
